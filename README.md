@@ -56,7 +56,7 @@ docker network create app_network
 
 2. Banco de Dados PostgreSQL
 Construa e execute o contêiner para o banco de dados e associando-o à rede criada anteriormente:
-``bash
+```bash
 docker build -t imagem_pg -f ./backend/DockerfilePG ./backend
 docker run -d --name db -p 5432:5432 --network=app_network imagem_pg
 ```

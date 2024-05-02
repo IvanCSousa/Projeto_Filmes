@@ -28,7 +28,7 @@ Com docker-compose:
     ```bash
     docker-compose up -d
     ```
-       3.1 Pode construir de forma a analizar também, você pode iniciar os contêineres sem ser em segundo plano:
+   3.1 Pode construir de forma a analizar também, você pode iniciar os contêineres sem ser em segundo plano:
     ```
     docker-compose up
     ```

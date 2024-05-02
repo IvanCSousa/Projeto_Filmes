@@ -14,8 +14,18 @@ Este projeto está dividido em três pastas distintas: Backend (Nodejs), Fronten
 
 Com docker-compose:
 
-Navegue até o diretório `./Docker`:
+1. Navegue até o diretório `./Docker`:
+    ```bash
+    cd ./Docker
+    ```
 
-```bash
-cd ./Docker
+2. Em seguida, execute o comando para construir as imagens:
+    ```bash
+    docker-compose build
+    ```
+
+3. Depois que a construção das imagens for concluída sem erros, você pode iniciar os contêineres em segundo plano:
+    ```bash
+    docker-compose up -d
+    ```
 

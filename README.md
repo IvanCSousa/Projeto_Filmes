@@ -1,4 +1,4 @@
-# Projeto_Filmes
+# Projeto Filmes
 
 Este projeto foi desenvolvido utilizando a API do "The Movie DB" para a busca de filmes, o banco de dados Postgres para persistência dos dados, e uma arquitetura composta por um backend em Node.js com Express e um frontend em React.
 A aplicação está utilizando containeres em Docker para facilitar o deploy.

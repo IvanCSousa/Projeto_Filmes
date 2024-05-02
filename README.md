@@ -16,7 +16,7 @@ Inicializar o projeto:
 
   Com docker-compose:
     Navegue até o diretório ./Docker:
-     docker-compose build
+     '''docker-compose build''' 
     Depois da construção das imagens serem realizadas sem erros:
       docker-compose up -d
     

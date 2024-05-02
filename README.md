@@ -14,7 +14,7 @@ Este projeto está dividido em três pastas distintas: Backend (Nodejs), Fronten
 
 **Com docker-compose:**
 
-1. Navegue até o diretório `./Docker`:
+1. Navegue até o diretório ./Docker:
     ```bash
     cd ./Docker
     ```
@@ -42,7 +42,7 @@ Este projeto está dividido em três pastas distintas: Backend (Nodejs), Fronten
 
 
 
-**DOCKER**
+**No Docker**
 Utilizando Dockerfile
 
 1. Criação da Rede Docker
@@ -50,18 +50,21 @@ Utilizando Dockerfile
 Execute o seguinte comando para criar a rede Docker necessária para conectar os contêineres:
 
 ```bash
-docker network create app_network```
+docker network create app_network
+```
 
 
 2. Banco de Dados PostgreSQL
 Construa e execute o contêiner para o banco de dados e associando-o à rede criada anteriormente:
 ``bash
 docker build -t imagem_pg -f ./backend/DockerfilePG ./backend
-docker run -d --name db -p 5432:5432 --network=app_network imagem_pg````
+docker run -d --name db -p 5432:5432 --network=app_network imagem_pg
+```
 
 3. Backend Node.js
 Construa e execute o contêiner para o backend associando-o à mesma rede e especificando a dependência do banco de dados:
 ```bash
 docker build -t imagem_bd -f ./backend/DockerfileBE ./backend
-docker run -d --name backend_container -p 3000:3000 --network=app_network imagem_bd```
+docker run -d --name backend_container -p 3000:3000 --network=app_network imagem_bd
+```
 

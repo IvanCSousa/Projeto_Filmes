@@ -12,7 +12,7 @@ Tela Inicial Personalizada: A página inicial dos usuários apresenta os título
 Este projeto está dividido em três pastas distintas: Backend (Nodejs), Frontend em (React) e Docker (onde só tem o docker-compute para facilitar a subida da aplicação)
 
 
-Com docker-compose:
+**Com docker-compose:**
 
 1. Navegue até o diretório `./Docker`:
     ```bash
@@ -32,3 +32,10 @@ Com docker-compose:
     ```
     docker-compose up
     ```
+
+4. Para parar o projeto, execute:
+    ```bash
+    docker-compose down
+    ```
+
+    Isso irá parar e remover os contêineres, redes e volumes criados pelo `docker-compose`.

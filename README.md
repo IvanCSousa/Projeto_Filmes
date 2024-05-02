@@ -68,3 +68,11 @@ docker build -t imagem_bd -f ./backend/DockerfileBE ./backend
 docker run -d --name backend_container -p 3000:3000 --network=app_network imagem_bd
 ```
 
+4. Frontend React
+Construa e execute o contêiner para o frontend React, associando-o à mesma rede:
+
+```bash
+docker build -t image_front -f ./frontend/DockerfileNode ./frontend
+docker run -d --name frontend_container -p 5173:5173 --network=app_network image_front
+
+```

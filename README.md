@@ -14,9 +14,12 @@ Este projeto está dividido em três pastas distintas: Backend (Nodejs), Fronten
 
 Inicializar o projeto:
 
-  Com docker-compose:
+ Com docker-compose:
     Navegue até o diretório ./Docker:
-     ```docker-compose build´´´´ 
+     ```yaml
+docker-compose build
+´´´´ 
     Depois da construção das imagens serem realizadas sem erros:
       docker-compose up -d
-    
+
+

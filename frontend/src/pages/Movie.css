@@ -1,0 +1,44 @@
+.movie-page{
+    background-color: rgb(70, 60, 60);
+    padding: 0.8rem;
+    color: aliceblue;
+    flex-direction:column;
+    max-width: 800px;
+    margin: 8rem auto;
+    margin-bottom: 10rem;
+    border-radius: 20px;
+    border: 5px;
+    font-weight: bolder;
+}
+
+.movie-page .infocard {
+    text-align: center;
+    margin: 5rem auto;
+}
+
+
+.movie-page .infocard .card {
+    margin-bottom: 2rem;
+}
+
+.movie-page .infocard img, 
+.movie-page .infocard h4,
+.movie-page .infocard p {
+    margin-bottom: 1rem;
+}
+
+
+.info{
+    margin-bottom: 1rem;
+    margin: 0.5rem;
+}
+
+.info h4{
+    margin-bottom: 0.2rem;
+    display: flex;
+}
+
+.info p {
+    margin-bottom: 1rem;
+}
+

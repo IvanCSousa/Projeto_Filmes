@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  node_app:
+    build:
+      context: .
+      dockerfile: DockerfileNode
+    ports:
+      - "5173:5173"
+
+
+      

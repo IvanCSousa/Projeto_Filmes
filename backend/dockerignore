@@ -1,0 +1,4 @@
+node_modules
+DockerfileBE
+DockerfilePG
+.dockerignore

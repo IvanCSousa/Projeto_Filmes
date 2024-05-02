@@ -1,0 +1,25 @@
+* {
+  font-family: 'Franklin Gothic Medium';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: url("assets/assentos-de-cinema-em-3d.jpg"); */
+  background-image: url("assets/assentos-de-cinema.jpg");
+  background-size:contain; 
+  background-position: center;
+  min-height: 100vh;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(180, 107, 249);
+  transition: 0.5s;
+}
+
+a:hover {
+  color: rgb(245, 245, 245);
+}

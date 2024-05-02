@@ -1,0 +1,10 @@
+FROM postgres:latest
+
+ENV POSTGRES_DB=filmes
+ENV POSTGRES_USER="admin"
+ENV POSTGRES_PASSWORD="admin"
+
+EXPOSE 5432
+EXPOSE 5321
+
+COPY init.sql /docker-entrypoint-initdb.d/

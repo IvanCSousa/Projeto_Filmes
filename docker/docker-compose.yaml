@@ -1,0 +1,32 @@
+services:
+  #BANCO DE DADOS EM POSTGRESS
+  db:
+    build:
+      context: ../backend
+      dockerfile: ./DockerfilePG
+    ports:
+      - "5432:5432"
+    networks:
+      - app_network
+  #BACKEND EM NODEJS
+  backend:
+    build:
+      context: ../backend
+      dockerfile: ./DockerfileBE
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    networks:
+      - app_network
+  #FRONTEND EM REACT
+  node_app:
+    build:
+      context: ../frontend
+      dockerfile: DockerfileNode
+    ports:
+      - "5173:5173"
+#REDE 
+networks:
+  app_network:
+    driver: bridge

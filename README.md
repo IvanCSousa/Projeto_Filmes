@@ -11,6 +11,9 @@ Tela Inicial Personalizada: A página inicial dos usuários apresenta os título
 
 Este projeto está dividido em três pastas distintas: Backend (Nodejs), Frontend em (React) e Docker (onde só tem o docker-compute para facilitar a subida da aplicação)
 
+**Importante**
+Nos diretórios ./frontend e ./backend 
+existem dois arquivos env, para onde estão as variáveis de ambiente, importante renomear os arquivos para .env
 
 **Com docker-compose:**
 

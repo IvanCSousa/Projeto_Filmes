@@ -4,6 +4,7 @@ Este projeto foi desenvolvido utilizando a API do "The Movie DB" para a busca de
 A aplicação está utilizando containeres em Docker para facilitar o deploy.
 
 **Tarefas da aplicação**
+
 Autenticação de Usuários: A aplicação possui uma tela de login/registro para que os usuários possam acessar o sistema.
 Pesquisa de Filmes: Os usuários podem buscar por títulos de filmes utilizando a API do "The Movie DB".
 Marcação de Filmes: Após encontrar um filme, os usuários podem marcá-lo como "Assistido" e/ou "Favorito", ou indicar que pretendem assisti-lo. Essas informações são persistidas no banco de dados Postgres.

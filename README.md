@@ -40,14 +40,11 @@ Este projeto está dividido em três pastas distintas: Backend (Nodejs), Fronten
     docker-compose -f ./docker/docker-compose.yaml up -d
     ```
     
-4. Para parar o projeto, execute:
+4. Para parar o projeto, isso irá parar e remover os contêineres e rede criados pelo `docker-compose`, execute:
     ```bash
    docker-compose -f ./docker/docker-compose.yaml down
     ```
-    Isso irá parar e remover os contêineres e rede criados pelo `docker-compose`.
-
-
-
+    
 
 
 ## 3. Deploy com o Docker Utilizando Dockerfile

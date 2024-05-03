@@ -19,11 +19,6 @@ Este projeto está dividido em três pastas distintas: Backend (Nodejs), Fronten
 
 ## DEPLOY
 
-**Importante**
-Nos diretórios ./frontend e ./backend 
-existem dois arquivos env, onde estão as variáveis de ambiente, importante **renomear os arquivos para .env**
-
-
 ### 1.  **renomear os arquivos para .env**
 
 1. Renomei os arquivos env nos diretórios frontend e backend:
@@ -31,7 +26,7 @@ existem dois arquivos env, onde estão as variáveis de ambiente, importante **r
     mv ./frontend env .env
     mv ./backend env .env
 
-**Com docker-compose:**
+## Deploy Com docker-compose
 
 1. Navegue até o diretório ./Docker:
     ```bash
@@ -62,7 +57,9 @@ existem dois arquivos env, onde estão as variáveis de ambiente, importante **r
 
 
 
-**No Docker**
+
+## Deploy Com docker-compose
+
     Utilizando Dockerfile
 
 1. Criação da Rede Docker
@@ -94,5 +91,10 @@ Construa e execute o contêiner para o frontend React, associando-o à mesma red
 ```bash
 docker build -t image_front -f ./frontend/DockerfileNode ./frontend
 docker run -d --name frontend_container -p 5173:5173 --network=app_network image_front
-
 ```
+
+
+
+**Importante**
+Nos diretórios ./frontend e ./backend 
+existem dois arquivos env, onde estão as variáveis de ambiente, importante **renomear os arquivos para .env** 

@@ -37,7 +37,7 @@ Este projeto está dividido em três pastas distintas: Backend (Nodejs), Fronten
 
 3. Depois que a construção das imagens for concluída sem erros, você pode iniciar os contêineres em segundo plano (caso queira ver os logs de build é só retirar o -d):
     ```bash
-    docker-compose up -d
+    docker-compose -f ./docker/docker-compose.yaml up -d
     ```
     
 4. Para parar o projeto, execute:

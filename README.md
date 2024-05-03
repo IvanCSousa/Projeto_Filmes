@@ -27,7 +27,7 @@ Este projeto está dividido em três pastas distintas: Backend (Nodejs), Fronten
     mv ./backend env .env```
 
 
-## Deploy Com docker-compose
+### 2. Deploy Com docker-compose
 
 1. Navegue até o diretório ./Docker:
     ```bash
@@ -54,7 +54,7 @@ Este projeto está dividido em três pastas distintas: Backend (Nodejs), Fronten
 
 
 
-## Deploy com o Docker Utilizando Dockerfile
+## 3. Deploy com o Docker Utilizando Dockerfile
 
 1. Criação da Rede Docker
 

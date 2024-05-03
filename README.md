@@ -29,15 +29,11 @@ Este projeto está dividido em três pastas distintas: Backend (Nodejs), Fronten
 
 ### 2. Deploy Com docker-compose
 
-1. Navegue até o diretório ./Docker:
+1. Em seguida, execute o comando para construir as imagens ou navegue até a pasta docker:
     ```bash
-    cd ./Docker
+    docker-compose -f ./docker/docker-compose.yaml build
     ```
-
-2. Em seguida, execute o comando para construir as imagens:
-    ```bash
-    docker-compose build
-    ```
+    
 
 3. Depois que a construção das imagens for concluída sem erros, você pode iniciar os contêineres em segundo plano (caso queira ver os logs de build é só retirar o -d):
     ```bash

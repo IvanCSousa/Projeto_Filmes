@@ -42,7 +42,7 @@ Este projeto está dividido em três pastas distintas: Backend (Nodejs), Fronten
     
 4. Para parar o projeto, execute:
     ```bash
-    docker-compose down
+   docker-compose -f ./docker/docker-compose.yaml down
     ```
     Isso irá parar e remover os contêineres e rede criados pelo `docker-compose`.
 

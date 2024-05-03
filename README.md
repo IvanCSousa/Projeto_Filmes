@@ -26,17 +26,10 @@ existem dois arquivos env, onde estão as variáveis de ambiente, importante **r
 
 ## 1.  **renomear os arquivos para .env**
 
-1. Navegue até o diretório ./frontend e renomei o arquivo env:
+1. Renomei os arquivos env nos diretórios frontend e backend:
     ```bash
-    cd ./frontend
-    mv env .env
-    ```
-
-2. Navegue até o diretório ./backend e renomei o arquivo env:
-    ```bash
-    cd ./backend
-    mv env .env
-    ```
+    mv ./frontend env .env
+    mv ./backend env .env
 
 **Com docker-compose:**
 

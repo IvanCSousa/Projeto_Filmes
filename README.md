@@ -52,8 +52,7 @@ Este projeto está dividido em três pastas distintas: Backend (Nodejs), Fronten
     ```bash
     docker-compose down
     ```
-
-    Isso irá parar e remover os contêineres, redes e volumes criados pelo `docker-compose`.
+    Isso irá parar e remover os contêineres e rede criados pelo `docker-compose`.
 
 
 

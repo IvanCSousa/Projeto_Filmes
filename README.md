@@ -16,11 +16,27 @@ Detalhes do Filme: Ao clicar na capa de um filme, os usuários podem visualizar 
 Tela Inicial Personalizada: A página inicial dos usuários apresenta os títulos e capas dos filmes incluídos em suas listas de Assistidos, Favoritos, e aqueles que pretendem assistir.
 
 Este projeto está dividido em três pastas distintas: Backend (Nodejs), Frontend em (React) e Docker (onde só tem o docker-compute para facilitar a subida da aplicação).
- **renomear os arquivos para .env**
+
+**DEPLOY**
 
 **Importante**
 Nos diretórios ./frontend e ./backend 
 existem dois arquivos env, onde estão as variáveis de ambiente, importante **renomear os arquivos para .env**
+
+
+## 1.  **renomear os arquivos para .env**
+
+1. Navegue até o diretório ./frontend e renomei o arquivo env:
+    ```bash
+    cd ./frontend
+    mv env .env
+    ```
+
+2. Navegue até o diretório ./backend e renomei o arquivo env:
+    ```bash
+    cd ./backend
+    mv env .env
+    ```
 
 **Com docker-compose:**
 

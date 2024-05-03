@@ -24,7 +24,8 @@ Este projeto está dividido em três pastas distintas: Backend (Nodejs), Fronten
 1. Renomei os arquivos env nos diretórios frontend e backend:
     ```bash
     mv ./frontend env .env
-    mv ./backend env .env
+    mv ./backend env .env```
+
 
 ## Deploy Com docker-compose
 

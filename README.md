@@ -43,10 +43,10 @@ Este projeto está dividido em três pastas distintas: Backend (Nodejs), Fronten
     ```bash
     docker-compose up -d
     ```
-   3.1 Pode construir de forma a analizar também, você pode iniciar os contêineres sem ser em segundo plano:
-    ```
-    docker-compose up
-    ```
+       3.1 Pode construir de forma a analizar também, você pode iniciar os contêineres sem ser em segundo plano:
+        ```
+        docker-compose up
+        ```
 
 4. Para parar o projeto, execute:
     ```bash

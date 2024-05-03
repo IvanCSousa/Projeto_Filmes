@@ -83,5 +83,14 @@ docker run -d --name frontend_container -p 5173:5173 --network=app_network image
 
 
 **Importante**
-Nos diretórios ./frontend e ./backend 
-existem dois arquivos env, onde estão as variáveis de ambiente, importante **renomear os arquivos para .env** 
+Nos diretórios ./frontend e ./backend  existem dois arquivos env, onde estão as variáveis de ambiente, importante **renomear os arquivos para .env** 
+
+
+
+
+
+
+
+
+
+

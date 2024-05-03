@@ -58,9 +58,7 @@ Este projeto está dividido em três pastas distintas: Backend (Nodejs), Fronten
 
 
 
-## Deploy Com docker-compose
-
-    Utilizando Dockerfile
+## Deploy com o Docker Utilizando Dockerfile
 
 1. Criação da Rede Docker
 
